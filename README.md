@@ -1,4 +1,4 @@
-# HIGHER LEVEL PROGRAMMING - HOLBERTON SCHOOL :robot:
+# HIGHER LEVEL PROGRAMMING - (ALX) HOLBERTON SCHOOL :robot:
 
 ## Description :speech_balloon:
 Higher-level programming projects for Holberton School Year 1 
