@@ -1,5 +1,4 @@
 # 4-print_square.txt
-# Carlos Barros <1543@holbertonschool.com>
 
 ===========================
 How to Use 4-print_square.py

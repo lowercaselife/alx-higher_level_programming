@@ -1,5 +1,4 @@
 # 3-say_my_name.txt
-# Carlos Barros <1543@holbertonschool.com>
 
 ===========================
 How to Use 3-say_my_name.py
