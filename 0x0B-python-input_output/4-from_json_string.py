@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 # 6-from_json_string.py
-# Carlos Barros <1543@holbertonschool.com>
 """ File name : 6-from_json_string.py
 """
 import json

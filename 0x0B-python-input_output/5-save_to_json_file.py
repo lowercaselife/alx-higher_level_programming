@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 # 7-save_to_json_file.py
-# Carlos Barros <1543@holbertonschool.com>
 """ File name : 7-save_to_json_file.py
 """
 import json

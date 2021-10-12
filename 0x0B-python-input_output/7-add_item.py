@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 # 9-add_item.py
-# Carlos Barros <1543@holbertonschool.com>
 """ File name : 9-add_item.py"""
 import sys
 

@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 # 8-load_from_json_file.py
-# Carlos Barros <1543@holbertonschool.com>
 """ File name : 8-load_from_json_file.py
 """
 import json
