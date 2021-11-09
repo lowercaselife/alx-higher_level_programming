@@ -1,16 +1,20 @@
 #!/usr/bin/python3
-# 9-add_item.py
-""" File name : 9-add_item.py"""
-import sys
 
-if __name__ == "__main__":
-    save_to_json_file = __import__('7-save_to_json_file').save_to_json_file
-    load_from_json_file = \
-        __import__('8-load_from_json_file').load_from_json_file
+from sys import argv
 
-    try:
-        items = load_from_json_file('add_item.json')
-    except FileNotFoundError:
-        items = []
-    items.extend(sys.argv[1:])
-    save_to_json_file(items, 'add_item.json')
+save_to_json_file = __import__("7-save_to_json_file").save_to_json_file
+load_from_json_file = __import__("8-load_from_json_file").load_from_json_file
+
+new_list = []
+
+try:
+    list_file = load_from_json_file("add_item.json")
+    for i in list_file:
+        new_list.append(i)
+except:
+    new_list = []
+
+for i in range(len(argv)):
+    if i != 0:
+        new_list.append(argv[i])
+save_to_json_file(new_list, "add_item.json")
