@@ -1,4 +1,3 @@
-
 # Python - Object-relational mapping :computer:
 
 In this project, I learned about how object-relational mapping is used for
@@ -76,8 +75,6 @@ for all files. Provided by Holberton School.
   `hbtn_0e_6_usa`, ordered by `states.id`.
   * Usage: `./8-model_state_fetch_first.py <mysql username> <mysql password>
   <database name>`.
-  * Usage: `./8-model_state_fetch_first.py <mysql username> <mysql password>
-  <database name>`.
   * If the `states` table is empty, prints `Nothing`.
 
 * **9. Contains `a`**
@@ -101,7 +98,7 @@ for all files. Provided by Holberton School.
   * [11-model_state_insert.py](./11-model_state_insert.py): Python script that
   uses SQLAlchemy to add the `State` object "Louisiana" to the database
 `hbtn_0e_6_usa`.
-* Usage: `./11-model_state_insert.py <mysql username> <mysql password>
+  * Usage: `./11-model_state_insert.py <mysql username> <mysql password>
   <database name>`.
   * Prints the `id` of the new `State` after creation.
 
@@ -109,14 +106,14 @@ for all files. Provided by Holberton School.
   * [12-model_state_update_id_2.py](./12-model_state_update_id_2.py): Python
   script that uses SQLAlchemy to change the name of the `State` object with
   `id = 2` in the database `hbtn_0e_6_usa` to "New Mexico".
- * Usage: `./12-model_state_update_id_2.py <mysql username> <mysql password>
+  * Usage: `./12-model_state_update_id_2.py <mysql username> <mysql password>
   <database name>`.
 
 * **13. Delete states**
   * [13-model_state_delete_a.py](./13-model_state_delete_a.py): Python script
   that uses SQLAlchemy to delete all `State` objects with a name containing the
   letter `a` from the database `hbtn_0e_6_usa`.
- * Usage: `./13-model_state_delete_a.py <mysql username> <mysql password>
+  * Usage: `./13-model_state_delete_a.py <mysql username> <mysql password>
   <database name>`.
 
 * **14. Cities in state**
@@ -132,5 +129,4 @@ for all files. Provided by Holberton School.
   * Results are sorted by ascending `cities.id`.
 
 ## Authors :black_nib:
-**Danson Kalaghe**
-                  [Github](https://github.com/lowercaselife)
+**Danson Kalaghe** [Github](https://github.com/lowercaselife)
