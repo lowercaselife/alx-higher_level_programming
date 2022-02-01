@@ -1,28 +1,66 @@
-# NODE-HIGHER LEVEL PROGRAMMING :robot:
+# 0x14. Javascript - Web scraping :computer:
 
-## Description :speech_balloon:
-Higher-level programming projects for ALX(Holberton School) Year 1 
+This project involved practicing file I/O on Node.js and using the NPM request
+framework to interact with the [Star Wars](https://swapi.co/),
+[JSONplaceholder](https://jsonplaceholder.typicode.com).
 
-## Requeriments :bookmark_tabs:
+## Tasks :page_with_curl:
 
-* Allowed editors: ```vi```, ```vim```, ```emacs```
-* All your files will be interpreted/compiled on Ubuntu 14.04 LTS using python3 (version 3.4.3)
-* All files should end with a new line
-* The first line of all your files should be exactly #!/usr/bin/python3
-* Your code should use the PEP 8 style (version 1.7.*)
-* All your header files should be include guarded
-* All your files must be executable
-* The length of your files will be tested using wc
+- **0. Readme**
 
-## Quick start :runner:
-Git clone the repository:
+  - [0-readme.js](./0-readme.js): JavaScript script that reads and prints the
+    contents of a file.
+  - Usage: `./0-readme.js <file path>`.
+
+- **1. Write me**
+
+  - [1-writeme.js](./1-writeme.js): JavaScript script that writes a string to a
+    file.
+  - Usage: `./1-writeme.js <file path> <string to write>`.
+
+- **2. Status code**
+
+  - [2-statuscode.js](./2-statuscode.js): JavaScript script that displays the
+    stauts code of a `GET` request using the `request` framework.
+  - Usage: `./2-statuscode.js <URL to GET>`.
+  - Output: `code: <status code>`.
+
+- **3. Star wars movie title**
+
+  - [3-starwars_title.js](./3-starwars_title.js): JavaScript script that uses the
+    Star Wars API to print the title of the Star Wars movie with a given integer episode
+    number.
+  - Usage: `./3-starwars_title.js <3-starwars_title.js>`.
+
+- **4. Star wars Wedge Antilles**
+
+  - [4-starwars_count.js](./4-starwars_count.js): JavaScript script that uses the
+    Star Wars API to print the number of movies featuring the character "Wedge Antilles".
+  - Usage: `./4-starwars_count.js http://swapi.co/api/films/`.
+
+- **5. Loripsum**
+
+  - [5-request_store.js](./5-request_store.js): JavaScript script that stores the
+    contents of a webpage in a file.
+  - Usage: `./5-request_store.js <URL to get> <file path to store content in>`.
+
+- **6. How many completed?**
+
+  - [6-completed_tasks.js](./6-completed_tasks.js): JavaScript script that uses the
+    JSONPlaceholder API to compute the number of tasks completed per user ID.
+  - Usage: `./6-completed_tasks.js https://jsonplaceholder.typicode.com/todos`.
+
+  ## Quick start :runner:
+
+  Git clone the repository:
 
 ```
 git clone https://github.com/lowercaselife/alx-higher_level_programming.git
 ```
 
 ## Bugs :loudspeaker:
+
 No known bugs.
 
-
-## Authors :black_nib:
+## Authors :black_nib:I
+**Danson Kalaghe**
