@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-str = "alxse"
+str = "ALXSE"
 print(str * 3)
 print(str[0:3])
